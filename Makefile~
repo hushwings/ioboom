@@ -1,0 +1,4 @@
+iotest:iotest.c
+	gcc -D_GNU_SOURCE iotest.c -o iotest -g
+clean:
+	rm iotest *.o
